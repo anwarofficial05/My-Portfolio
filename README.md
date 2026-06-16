@@ -12,7 +12,7 @@ A fully responsive, dark-themed personal portfolio website built with pure HTML,
 
 ## 🔗 Live Demo
 
-> [**View Portfolio →**](https://anwarofficial05.github.io/portfolio)
+> [**View Portfolio →**](https://anwarportfolio.netlify.app/)
 
 ---
 
