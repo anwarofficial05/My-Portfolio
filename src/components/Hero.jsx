@@ -11,6 +11,7 @@ import {
   CheckCircle2, 
   TrendingUp, 
   Database, 
+  BarChart3,
   Cpu, 
   FileText,
   MessageSquare
@@ -112,7 +113,7 @@ export default function Hero({ onOpenResume, onOpenAI }) {
 
             {/* High-Impact Recruiter Bio */}
             <p className="text-gray-300 text-base sm:text-lg leading-relaxed max-w-2xl font-light">
-              Computer Science & Engineering graduate bridging the gap between <strong className="text-white font-medium">Power BI / SQL analytics</strong> and <strong className="text-white font-medium">production-ready full-stack AI</strong>. Proven experience analyzing <span className="text-purple-300 font-mono font-medium">50,000+ records</span>, building dual ML predictive models (<span className="text-sky-300 font-mono font-medium">92.8% accuracy</span>), and deploying real-time voice & cloud schedulers.
+              Computer Science & Engineering graduate bridging the gap between <strong className="text-white font-medium">Power BI / SQL analytics</strong> and <strong className="text-white font-medium">production-ready full-stack AI</strong>. Proven experience delivering <span className="text-purple-300 font-mono font-medium">credit risk intelligence</span>, building dual ML predictive models (<span className="text-sky-300 font-mono font-medium">92.8% accuracy</span>), and deploying real-time voice & cloud schedulers.
             </p>
 
             {/* Location & Key Tags */}
@@ -249,7 +250,7 @@ export default function Hero({ onOpenResume, onOpenAI }) {
                       <Sparkles className="w-4 h-4 text-purple-400" />
                     </div>
                     <div>
-                      <h4 className="text-xs font-semibold text-white">Full-Stack Intelligence</h4>
+                      <h4 className="text-xs font-semibold text-white">Data Analyst & AI</h4>
                       <p className="text-[10px] text-gray-400 font-mono">14+ Certs • 3 Internships</p>
                     </div>
                   </div>
@@ -259,14 +260,14 @@ export default function Hero({ onOpenResume, onOpenAI }) {
                 </div>
               </div>
 
-              {/* Floating Live Badge: Top-Left (SQL & Data) */}
+              {/* Floating Live Badge: Top-Left (Power BI & SQL Analytics) */}
               <div className="absolute -top-5 -left-4 sm:-left-6 bg-[#0a0f24]/95 backdrop-blur-md border border-purple-500/30 rounded-2xl p-3 shadow-xl shadow-purple-500/10 flex items-center gap-3 animate-float">
                 <div className="w-9 h-9 rounded-xl bg-purple-500/20 border border-purple-500/40 flex items-center justify-center">
-                  <Database className="w-4 h-4 text-purple-400" />
+                  <BarChart3 className="w-4 h-4 text-purple-400" />
                 </div>
                 <div>
-                  <div className="text-xs font-bold text-white font-mono">50,000+ Records</div>
-                  <div className="text-[10px] text-purple-300/80">SQL Window/CTE &lt;150ms</div>
+                  <div className="text-xs font-bold text-white font-mono">Power BI &amp; SQL</div>
+                  <div className="text-[10px] text-purple-300/80">Advanced Analytics &amp; ETL</div>
                 </div>
               </div>
 

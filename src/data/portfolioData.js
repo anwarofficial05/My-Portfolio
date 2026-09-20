@@ -23,7 +23,7 @@ export const personalInfo = {
 };
 
 export const stats = [
-  { label: "Data Records Analyzed", value: "50,000+", change: "SQL CTEs <150ms", icon: "Database" },
+  { label: "Data & BI Analytics", value: "Power BI & SQL", change: "Advanced Modeling", icon: "BarChart3" },
   { label: "ML Pipeline Accuracy", value: "92.8%", change: "0.98 ROC-AUC", icon: "TrendingUp" },
   { label: "Modular Voice Intents", value: "50+", change: "Sub-200ms dispatch", icon: "Mic" },
   { label: "Industry Certifications", value: "14+", change: "Tata, Deloitte, NVIDIA", icon: "Award" },
