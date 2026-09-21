@@ -28,9 +28,9 @@ export default function RecruiterPitch({ onOpenResume, onOpenAI }) {
       icon: Zap,
       color: "from-sky-500 to-blue-500",
       border: "border-sky-500/30",
-      title: "High-Performance Analytics & 92.8% ML",
+      title: "High-Performance Analytics & Machine Learning",
       highlight: "High-Performance Execution",
-      description: "Engineered dual ML pipelines (Logistic Regression & Random Forest) achieving 0.98 ROC-AUC, alongside 12 optimized SQL CTE & window queries for real-time risk classification."
+      description: "Engineered dual ML pipelines (Logistic Regression & Random Forest) for automated risk scoring, alongside 12 optimized SQL CTE & window queries."
     },
     {
       icon: Briefcase,

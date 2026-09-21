@@ -111,9 +111,8 @@ export default function Hero({ onOpenResume, onOpenAI }) {
               </h1>
             </div>
 
-            {/* High-Impact Recruiter Bio */}
             <p className="text-gray-300 text-base sm:text-lg leading-relaxed max-w-2xl font-light">
-              Computer Science & Engineering graduate bridging the gap between <strong className="text-white font-medium">Power BI / SQL analytics</strong> and <strong className="text-white font-medium">production-ready full-stack AI</strong>. Proven experience delivering <span className="text-purple-300 font-mono font-medium">credit risk intelligence</span>, building dual ML predictive models (<span className="text-sky-300 font-mono font-medium">92.8% accuracy</span>), and deploying real-time voice & cloud schedulers.
+              Computer Science & Engineering graduate bridging the gap between <strong className="text-white font-medium">Power BI / SQL analytics</strong> and <strong className="text-white font-medium">production-ready full-stack AI</strong>. Proven experience delivering <span className="text-purple-300 font-mono font-medium">credit risk intelligence</span>, building dual ML predictive pipelines, and deploying real-time voice & cloud schedulers.
             </p>
 
             {/* Location & Key Tags */}
@@ -160,7 +159,7 @@ export default function Hero({ onOpenResume, onOpenAI }) {
                 className="px-5 py-3.5 rounded-full text-sm font-semibold bg-white/5 hover:bg-white/10 text-gray-200 border border-white/10 flex items-center justify-center gap-2 w-full sm:w-auto transition-all duration-200"
               >
                 <FileText className="w-4 h-4 text-sky-400" />
-                <span>ATS Resume</span>
+                <span>Resume</span>
               </button>
             </div>
 
@@ -271,14 +270,14 @@ export default function Hero({ onOpenResume, onOpenAI }) {
                 </div>
               </div>
 
-              {/* Floating Live Badge: Bottom-Right (ML Accuracy) */}
+              {/* Floating Live Badge: Bottom-Right (Machine Learning) */}
               <div className="absolute -bottom-5 -right-3 sm:-right-5 bg-[#0a0f24]/95 backdrop-blur-md border border-sky-500/30 rounded-2xl p-3 shadow-xl shadow-sky-500/10 flex items-center gap-3 animate-float" style={{ animationDelay: '2.5s' }}>
                 <div className="w-9 h-9 rounded-xl bg-sky-500/20 border border-sky-500/40 flex items-center justify-center">
-                  <TrendingUp className="w-4 h-4 text-sky-400" />
+                  <Cpu className="w-4 h-4 text-sky-400" />
                 </div>
                 <div>
-                  <div className="text-xs font-bold text-white font-mono">92.8% ML Accuracy</div>
-                  <div className="text-[10px] text-sky-300/80">0.98 ROC-AUC Score</div>
+                  <div className="text-xs font-bold text-white font-mono">Dual ML Pipelines</div>
+                  <div className="text-[10px] text-sky-300/80">Scikit-Learn &amp; Python</div>
                 </div>
               </div>
 

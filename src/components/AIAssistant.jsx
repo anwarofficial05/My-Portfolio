@@ -105,7 +105,7 @@ export default function AIAssistant({ isOpen, onClose, onOpenResume }) {
     }
     if (q.includes('resume') || q.includes('cv')) {
       return {
-        answer: `You can view and print Anwar's ATS-compliant resume directly using the 'ATS Resume' button in the navigation or top header!`,
+        answer: `You can view and print Anwar's ATS-compliant resume directly using the 'Resume' button in the navigation or top header!`,
         section: 'resume'
       };
     }

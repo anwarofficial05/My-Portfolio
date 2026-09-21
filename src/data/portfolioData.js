@@ -16,16 +16,16 @@ export const personalInfo = {
   github: "https://github.com/anwarofficial05",
   whatsapp: "https://wa.me/918072022294?text=Hi%20Mohamed%20Anwar,%20I%20reviewed%20your%20portfolio%20and%20would%20like%20to%20connect!",
   summary: "Motivated Computer Science and Engineering graduate aspiring to become a Data Analyst. Skilled in Power BI, Tableau, Excel, SQL, and Python for data cleaning, analysis, visualization, and reporting. Strong analytical and problem-solving skills with a passion for transforming complex data into actionable business insights and responsive full-stack applications.",
-  recruiterPitch: "I specialize in bridging the gap between raw data analytics and full-stack software engineering. Whether executing 12 SQL CTE queries across 50k+ records in under 150ms or deploying dual ML models with 92.8% accuracy, I build reliable, production-tested solutions that drive measurable business impact.",
+  recruiterPitch: "I specialize in bridging the gap between raw data analytics and full-stack software engineering. Whether executing 12 SQL CTE queries across 50k+ records in under 150ms or deploying dual ML predictive pipelines, I build reliable, production-tested solutions that drive measurable business impact.",
   availability: "Available for Internships & Full-Time Roles",
   openToRemote: true,
   openToRelocation: true,
 };
 
 export const stats = [
-  { label: "Data & BI Analytics", value: "Power BI & SQL", change: "Advanced Modeling", icon: "BarChart3" },
-  { label: "ML Pipeline Accuracy", value: "92.8%", change: "0.98 ROC-AUC", icon: "TrendingUp" },
-  { label: "Modular Voice Intents", value: "50+", change: "Sub-200ms dispatch", icon: "Mic" },
+  { label: "Data & BI Analytics", value: "Power BI & SQL", change: "Dashboards & ETL", icon: "BarChart3" },
+  { label: "Production Projects", value: "4 Live Apps", change: "Full-Stack & Cloud", icon: "Layers" },
+  { label: "Industry Internships", value: "3 Roles", change: "Pluto, TVK, Barola", icon: "Briefcase" },
   { label: "Industry Certifications", value: "14+", change: "Tata, Deloitte, NVIDIA", icon: "Award" },
 ];
 
@@ -41,13 +41,13 @@ export const projects = [
     metrics: [
       { label: "Dataset Scale", value: "50,000+ records" },
       { label: "Query Speed", value: "<150ms" },
-      { label: "Model Accuracy", value: "92.8%" },
-      { label: "ROC-AUC Score", value: "0.98" }
+      { label: "ML Architecture", value: "Dual Pipeline" },
+      { label: "Algorithms", value: "Random Forest" }
     ],
     tech: ["FastAPI", "React 18", "SQLite", "Python", "Scikit-Learn", "SQL (CTEs & Windows)", "Tailwind CSS"],
     highlights: [
       "Engineered a full-stack credit analytics platform (FastAPI, React 18, SQLite) analyzing 50,000+ loan records with 12 advanced SQL window/CTE queries in <150ms.",
-      "Trained and deployed dual ML pipelines (Logistic Regression & Random Forest) achieving 92.8% accuracy and 0.98 ROC-AUC for real-time loan approval and default risk scoring.",
+      "Trained and deployed dual ML pipelines (Logistic Regression & Random Forest) for real-time loan approval and default risk scoring.",
       "Built dynamic financial dashboards featuring interactive debt-to-income distribution, credit grade segmentation, and risk probability heatmaps.",
       "Implemented automated feature scaling, missing value imputation, and class balancing pipelines for robust inference."
     ],
@@ -384,7 +384,7 @@ export const certifications = [
 export const aiAssistantFAQs = [
   {
     question: "Why should we hire Mohamed Anwar?",
-    answer: "Mohamed Anwar offers a rare blend of rigorous Data Analytics expertise (Power BI, SQL CTEs, EDA) paired with real-world Full-Stack AI engineering (FastAPI, React 18, ML deployment). He has built production applications analyzing 50,000+ records in <150ms, deployed dual ML models with 92.8% accuracy, and completed 3 industry internships. He is quick to learn, proactive, and ready to deliver immediate value.",
+    answer: "Mohamed Anwar offers a rare blend of rigorous Data Analytics expertise (Power BI, SQL CTEs, EDA) paired with real-world Full-Stack AI engineering (FastAPI, React 18, ML deployment). He has built production applications analyzing 50,000+ records in <150ms, deployed dual ML predictive models, and completed 3 industry internships. He is quick to learn, proactive, and ready to deliver immediate value.",
     relatedSection: "recruiter-pitch"
   },
   {
@@ -394,7 +394,7 @@ export const aiAssistantFAQs = [
   },
   {
     question: "Tell me about the Loan Approval & Credit Risk project.",
-    answer: "The Credit Risk Analysis Dashboard is a full-stack credit analytics platform built with FastAPI, React 18, and SQLite. It analyzes 50k+ records and employs dual ML pipelines (Logistic Regression and Random Forest) to achieve a 92.8% accuracy and 0.98 ROC-AUC for real-time risk scoring.",
+    answer: "The Credit Risk Analysis Dashboard is a full-stack credit analytics platform built with FastAPI, React 18, and SQLite. It analyzes 50k+ records and employs dual ML pipelines (Logistic Regression and Random Forest) for real-time risk scoring and loan approval assessment.",
     relatedSection: "projects"
   },
   {
