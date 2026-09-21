@@ -5,7 +5,8 @@ export const personalInfo = {
     "Aspiring Data Analyst",
     "Power BI Developer",
     "Python & SQL Specialist",
-    "Full-Stack AI Engineer"
+    "Full-Stack AI Engineer",
+    "Canva Designer"
   ],
   location: "Thiruvarur, Tamil Nadu",
   phone: "+91 8072022294",
