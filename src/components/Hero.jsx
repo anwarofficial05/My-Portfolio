@@ -11,8 +11,7 @@ import {
   CheckCircle2, 
   TrendingUp, 
   Database, 
-  BarChart3,
-  Cpu, 
+  BarChart3, 
   FileText,
   MessageSquare
 } from 'lucide-react';
@@ -254,17 +253,6 @@ export default function Hero({ onOpenResume, onOpenAI }) {
                 <div>
                   <div className="text-xs font-bold text-white font-mono">Power BI &amp; SQL</div>
                   <div className="text-[10px] text-purple-300/80">Advanced Analytics &amp; ETL</div>
-                </div>
-              </div>
-
-              {/* Floating Live Badge: Bottom-Right (Machine Learning) */}
-              <div className="absolute -bottom-5 -right-3 sm:-right-5 bg-[#0a0f24]/95 backdrop-blur-md border border-sky-500/30 rounded-2xl p-3 shadow-xl shadow-sky-500/10 flex items-center gap-3 animate-float" style={{ animationDelay: '2.5s' }}>
-                <div className="w-9 h-9 rounded-xl bg-sky-500/20 border border-sky-500/40 flex items-center justify-center">
-                  <Cpu className="w-4 h-4 text-sky-400" />
-                </div>
-                <div>
-                  <div className="text-xs font-bold text-white font-mono">Dual ML Pipelines</div>
-                  <div className="text-[10px] text-sky-300/80">Scikit-Learn &amp; Python</div>
                 </div>
               </div>
 
