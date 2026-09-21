@@ -46,7 +46,7 @@ export default function AIAssistant({ isOpen, onClose, onOpenResume }) {
     if (q.includes('hire') || q.includes('why') || q.includes('candidate') || q.includes('fit') || q.includes('hire anwar')) {
       return {
         answer: aiAssistantFAQs[0].answer,
-        section: 'recruiter-pitch'
+        section: 'skills'
       };
     }
     if (q.includes('sql') || q.includes('power bi') || q.includes('data') || q.includes('analytics') || q.includes('tableau') || q.includes('excel')) {

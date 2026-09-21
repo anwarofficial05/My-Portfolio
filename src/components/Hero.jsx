@@ -84,17 +84,6 @@ export default function Hero({ onOpenResume, onOpenAI }) {
           {/* Left Column: Recruiter Hook & Narrative */}
           <div className="lg:col-span-7 flex flex-col items-start space-y-6 text-left">
             
-            {/* Availability Radar Badge */}
-            <div className="inline-flex items-center gap-2.5 px-4 py-2 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-xs sm:text-sm font-medium backdrop-blur-md shadow-sm shadow-emerald-500/10">
-              <span className="relative flex h-2.5 w-2.5">
-                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-400 opacity-75"></span>
-                <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-emerald-500"></span>
-              </span>
-              <span>Open to Immediate Opportunities & Internships</span>
-              <span className="hidden sm:inline text-emerald-500/50">|</span>
-              <span className="hidden sm:inline text-emerald-300 font-mono text-xs">Data Analyst & AI</span>
-            </div>
-
             {/* Main Headline */}
             <div className="space-y-2">
               <p className="text-gray-400 text-base sm:text-lg font-mono flex items-center gap-2">
@@ -111,56 +100,54 @@ export default function Hero({ onOpenResume, onOpenAI }) {
               </h1>
             </div>
 
+            {/* Description from Resume */}
             <p className="text-gray-300 text-base sm:text-lg leading-relaxed max-w-2xl font-light">
-              Computer Science & Engineering graduate bridging the gap between <strong className="text-white font-medium">Power BI / SQL analytics</strong> and <strong className="text-white font-medium">production-ready full-stack AI</strong>. Proven experience delivering <span className="text-purple-300 font-mono font-medium">credit risk intelligence</span>, building dual ML predictive pipelines, and deploying real-time voice & cloud schedulers.
+              Motivated Computer Science and Engineering graduate aspiring to become a <strong className="text-white font-medium">Data Analyst</strong>. Skilled in <strong className="text-white font-medium">Power BI, Tableau, Excel, SQL, and Python</strong> for data cleaning, analysis, visualization, and reporting. Strong analytical and problem-solving skills with a passion for transforming data into actionable business insights.
             </p>
 
-            {/* Location & Key Tags */}
+            {/* Location & Key Skills from Resume */}
             <div className="flex flex-wrap items-center gap-3 text-xs text-gray-400 font-mono">
               <span className="flex items-center gap-1.5 px-3 py-1 rounded-md bg-white/5 border border-white/10">
                 <MapPin className="w-3.5 h-3.5 text-purple-400" />
-                Tamil Nadu, India
+                Thiruvarur, Tamil Nadu
               </span>
               <span className="flex items-center gap-1.5 px-3 py-1 rounded-md bg-white/5 border border-white/10">
-                <CheckCircle2 className="w-3.5 h-3.5 text-emerald-400" />
-                Open to Relocation & Remote
-              </span>
-              <span className="flex items-center gap-1.5 px-3 py-1 rounded-md bg-white/5 border border-white/10">
-                <Cpu className="w-3.5 h-3.5 text-sky-400" />
-                FastAPI • React • Scikit-Learn • Power BI
+                <BarChart3 className="w-3.5 h-3.5 text-sky-400" />
+                Power BI • Tableau • Excel • SQL • Python
               </span>
             </div>
 
             {/* Action Buttons */}
             <div className="flex flex-wrap items-center gap-3 pt-2 w-full sm:w-auto">
+              {/* Resume Download Button (First) */}
+              <a
+                href="/Mohamed_Anwar_S_Resume.pdf"
+                download="Mohamed_Anwar_S_Resume.pdf"
+                className="btn-primary px-6 py-3.5 rounded-full text-sm font-semibold flex items-center justify-center gap-2 w-full sm:w-auto shadow-lg shadow-purple-500/25 group"
+              >
+                <Download className="w-4 h-4 text-white group-hover:translate-y-0.5 transition-transform" />
+                <span>Resume</span>
+              </a>
+
               {/* Projects CTA */}
               <a
                 href="#projects"
                 onClick={(e) => scrollToSection(e, '#projects')}
-                className="btn-primary px-6 py-3.5 rounded-full text-sm font-semibold flex items-center justify-center gap-2 w-full sm:w-auto group"
+                className="btn-secondary px-6 py-3.5 rounded-full text-sm font-semibold flex items-center justify-center gap-2 w-full sm:w-auto group"
               >
-                <span>View Featured Projects</span>
+                <span>View Projects</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </a>
 
-              {/* Recruiter Quick Pitch CTA */}
+              {/* Contact CTA */}
               <a
-                href="#recruiter-pitch"
-                onClick={(e) => scrollToSection(e, '#recruiter-pitch')}
-                className="btn-secondary px-5 py-3.5 rounded-full text-sm font-semibold flex items-center justify-center gap-2 w-full sm:w-auto hover:border-purple-500/50"
-              >
-                <Sparkles className="w-4 h-4 text-purple-400" />
-                <span>Recruiter 10-Sec Pitch</span>
-              </a>
-
-              {/* Resume Button */}
-              <button
-                onClick={onOpenResume}
+                href="#contact"
+                onClick={(e) => scrollToSection(e, '#contact')}
                 className="px-5 py-3.5 rounded-full text-sm font-semibold bg-white/5 hover:bg-white/10 text-gray-200 border border-white/10 flex items-center justify-center gap-2 w-full sm:w-auto transition-all duration-200"
               >
-                <FileText className="w-4 h-4 text-sky-400" />
-                <span>Resume</span>
-              </button>
+                <Mail className="w-4 h-4 text-purple-400" />
+                <span>Contact</span>
+              </a>
             </div>
 
             {/* Social & Direct Contact Links */}

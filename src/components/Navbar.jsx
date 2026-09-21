@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { personalInfo } from '../data/portfolioData';
 import { 
-  FileText, 
+  Download, 
   Send, 
   Menu, 
   X, 
@@ -35,7 +35,7 @@ export default function Navbar({ onOpenResume, onOpenAI }) {
       setScrollProgress(scrolled);
 
       // Active section detection
-      const sections = ['hero', 'recruiter-pitch', 'projects', 'skills', 'experience', 'certifications', 'contact'];
+      const sections = ['hero', 'projects', 'skills', 'experience', 'certifications', 'contact'];
       for (const section of sections) {
         const el = document.getElementById(section);
         if (el) {
@@ -53,7 +53,6 @@ export default function Navbar({ onOpenResume, onOpenAI }) {
   }, []);
 
   const navLinks = [
-    { label: 'Overview', href: '#recruiter-pitch', id: 'recruiter-pitch' },
     { label: 'Projects', href: '#projects', id: 'projects' },
     { label: 'Skills', href: '#skills', id: 'skills' },
     { label: 'Experience', href: '#experience', id: 'experience' },
@@ -134,14 +133,16 @@ export default function Navbar({ onOpenResume, onOpenAI }) {
               <span>Anwar AI</span>
             </button>
 
-            {/* Resume Button */}
-            <button
-              onClick={onOpenResume}
+            {/* Resume Download Link */}
+            <a
+              href="/Mohamed_Anwar_S_Resume.pdf"
+              download="Mohamed_Anwar_S_Resume.pdf"
               className="btn-secondary px-3.5 py-2 rounded-full text-xs font-semibold flex items-center gap-1.5"
+              title="Download Resume PDF"
             >
-              <FileText className="w-3.5 h-3.5 text-purple-400" />
+              <Download className="w-3.5 h-3.5 text-purple-400" />
               <span>Resume</span>
-            </button>
+            </a>
 
             {/* Hire Me / Contact CTA */}
             <a
@@ -192,13 +193,14 @@ export default function Navbar({ onOpenResume, onOpenAI }) {
             ))}
 
             <div className="pt-3 border-t border-white/10 grid grid-cols-2 gap-2">
-              <button
-                onClick={() => { setMobileMenuOpen(false); onOpenResume(); }}
+              <a
+                href="/Mohamed_Anwar_S_Resume.pdf"
+                download="Mohamed_Anwar_S_Resume.pdf"
                 className="btn-secondary w-full py-2.5 rounded-xl text-xs font-semibold flex items-center justify-center gap-1.5"
               >
-                <FileText className="w-4 h-4 text-purple-400" />
-                <span>View Resume</span>
-              </button>
+                <Download className="w-4 h-4 text-purple-400" />
+                <span>Resume</span>
+              </a>
               <a
                 href="#contact"
                 onClick={(e) => scrollToSection(e, '#contact')}

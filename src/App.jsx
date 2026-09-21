@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
-import RecruiterPitch from './components/RecruiterPitch';
 import Projects from './components/Projects';
 import Skills from './components/Skills';
 import Experience from './components/Experience';
@@ -28,11 +27,6 @@ export default function App() {
       {/* Main Content Sections */}
       <main>
         <Hero 
-          onOpenResume={() => setResumeOpen(true)}
-          onOpenAI={() => setAiOpen(true)}
-        />
-        
-        <RecruiterPitch 
           onOpenResume={() => setResumeOpen(true)}
           onOpenAI={() => setAiOpen(true)}
         />

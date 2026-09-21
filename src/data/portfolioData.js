@@ -1,25 +1,22 @@
 export const personalInfo = {
-  name: "Mohamed Anwar S",
-  role: "Aspiring Data Analyst & Full-Stack AI Engineer",
+  name: "MOHAMED ANWAR S",
+  role: "Aspiring Data Analyst",
   roles: [
     "Aspiring Data Analyst",
-    "Full-Stack AI Engineer",
+    "Power BI Developer",
     "Python & SQL Specialist",
-    "Power BI & Tableau Developer",
-    "ML Solutions Builder"
+    "Full-Stack AI Engineer"
   ],
-  location: "Thiruvarur, Tamil Nadu, India",
+  location: "Thiruvarur, Tamil Nadu",
   phone: "+91 8072022294",
   rawPhone: "8072022294",
   email: "mohamedanwars1005@gmail.com",
   linkedin: "https://linkedin.com/in/mohamed-anwar-531552371",
   github: "https://github.com/anwarofficial05",
+  portfolioUrl: "https://md-anwar-portfolio.netlify.app/",
   whatsapp: "https://wa.me/918072022294?text=Hi%20Mohamed%20Anwar,%20I%20reviewed%20your%20portfolio%20and%20would%20like%20to%20connect!",
-  summary: "Motivated Computer Science and Engineering graduate aspiring to become a Data Analyst. Skilled in Power BI, Tableau, Excel, SQL, and Python for data cleaning, analysis, visualization, and reporting. Strong analytical and problem-solving skills with a passion for transforming complex data into actionable business insights and responsive full-stack applications.",
-  recruiterPitch: "I specialize in bridging the gap between raw data analytics and full-stack software engineering. Whether executing 12 SQL CTE queries across 50k+ records in under 150ms or deploying dual ML predictive pipelines, I build reliable, production-tested solutions that drive measurable business impact.",
-  availability: "Available for Internships & Full-Time Roles",
-  openToRemote: true,
-  openToRelocation: true,
+  resumeUrl: "/Mohamed_Anwar_S_Resume.pdf",
+  summary: "Motivated Computer Science and Engineering graduate aspiring to become a Data Analyst. Skilled in Power BI, Tableau, Excel, SQL, and Python for data cleaning, analysis, visualization, and reporting. Strong analytical and problem-solving skills with a passion for transforming data into actionable business insights.",
 };
 
 export const stats = [
@@ -385,7 +382,7 @@ export const aiAssistantFAQs = [
   {
     question: "Why should we hire Mohamed Anwar?",
     answer: "Mohamed Anwar offers a rare blend of rigorous Data Analytics expertise (Power BI, SQL CTEs, EDA) paired with real-world Full-Stack AI engineering (FastAPI, React 18, ML deployment). He has built production applications analyzing 50,000+ records in <150ms, deployed dual ML predictive models, and completed 3 industry internships. He is quick to learn, proactive, and ready to deliver immediate value.",
-    relatedSection: "recruiter-pitch"
+    relatedSection: "skills"
   },
   {
     question: "What are his primary Data Analytics and SQL skills?",

@@ -23,13 +23,22 @@ export default function ResumeModal({ isOpen, onClose }) {
           </div>
 
           <div className="flex items-center gap-2">
+            <a
+              href="/Mohamed_Anwar_S_Resume.pdf"
+              download="Mohamed_Anwar_S_Resume.pdf"
+              className="btn-primary px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-2"
+              title="Download Resume PDF"
+            >
+              <Download className="w-4 h-4" />
+              <span>Download PDF</span>
+            </a>
             <button
               onClick={handlePrint}
-              className="btn-primary px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-2"
-              title="Print or Save as PDF"
+              className="btn-secondary px-4 py-2 rounded-xl text-xs font-semibold flex items-center gap-2"
+              title="Print Resume"
             >
               <Printer className="w-4 h-4" />
-              <span>Print / Save PDF</span>
+              <span>Print</span>
             </button>
             <button
               onClick={onClose}
@@ -59,6 +68,10 @@ export default function ResumeModal({ isOpen, onClose }) {
               <span>•</span>
               <a href={personalInfo.github} target="_blank" rel="noopener noreferrer" className="hover:underline">
                 github.com/anwarofficial05
+              </a>
+              <span>•</span>
+              <a href="https://md-anwar-portfolio.netlify.app/" target="_blank" rel="noopener noreferrer" className="hover:underline text-sky-400">
+                Portfolio: md-anwar-portfolio.netlify.app
               </a>
             </p>
           </div>
